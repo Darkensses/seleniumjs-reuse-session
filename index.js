@@ -7,7 +7,7 @@ require('chromedriver');
 // 3. Open another CMD window and write:
 //    curl -XPOST http://localhost:9515/session -d "{\"desiredCapabilities\":{\"browserName\":\"chrome\"}}"
 // 4. You must see a chromedriver window and in the CMD a JSON response,
-//    copy the sessioID value (is at the begining of the JSO response)
+//    copy the sessionID value (is at the begining of the JSON response)
 
 const SESSION_ID = "PASTE_YOUR_SESSION_ID_HERE"
 const WD_URL = 'http://localhost:9515/';
